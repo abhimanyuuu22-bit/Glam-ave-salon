@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glam Ave Professional Salon | Panipat</title>
+  <style>
+    :root {
+      --primary: #d4af37;
+      --dark: #121212;
+      --light: #f9f9f9;
+      --gray: #666;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: var(--light); color: var(--dark); line-height: 1.6; }
+    
+    /* Header & Navigation */
+    header { background: #000; color: #fff; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1.4rem; font-weight: bold; color: var(--primary); letter-spacing: 1px; }
+    nav a { color: #fff; margin-left: 20px; text-decoration: none; font-size: 0.95rem; }
+    nav a:hover { color: var(--primary); }
+
+    /* Hero Section */
+    .hero { background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), #222; color: #fff; text-align: center; padding: 90px 20px; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 10px; color: var(--primary); }
+    .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 20px; }
+    .badge { background: #28a745; color: #fff; padding: 5px 12px; border-radius: 20px; font-weight: bold; display: inline-block; margin-bottom: 20px; }
+    .btn { background: var(--primary); color: #000; padding: 10px 22px; text-decoration: none; font-weight: bold; border-radius: 4px; }
+    
+    /* Services Section */
+    .section { padding: 50px 8%; text-align: center; }
+    .section h2 { font-size: 2rem; margin-bottom: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { background: #fff; padding: 25px 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+    .card h3 { color: var(--primary); margin-bottom: 10px; }
+    
+    /* Info & Contact */
+    .info-wrap { display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between; text-align: left; margin-top: 30px; }
+    .info-box { flex: 1; min-width: 280px; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+    .info-box h3 { margin-bottom: 15px; color: var(--dark); border-bottom: 2px solid var(--primary); padding-bottom: 5px; }
+
+    /* Footer */
+    footer { background: #000; color: #aaa; text-align: center; padding: 20px; font-size: 0.85rem; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="logo">GLAM AVE</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#details">Timings & Location</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="badge">★ 5.0 Rated on Justdial</div>
+    <h1>Glam Ave Professional Salon</h1>
+    <p>Premium hair styling, advanced beauty care, and makeup services in Panipat.</p>
+    <a href="#contact" class="btn">Book Appointment</a>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <h2>Our Specializations</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Hair Care</h3>
+        <p>Expert haircuts, ombre coloring, hair spa, smoothing treatments, and extensions.</p>
+      </div>
+      <div class="card">
+        <h3>Skin & Facial</h3>
+        <p>Customized facials, D-tan therapies, and full revitalizing skin treatments.</p>
+      </div>
+      <div class="card">
+        <h3>Nails & Grooming</h3>
+        <p>Premium manicures, nail extensions, nail buffing, and body waxing.</p>
+      </div>
+      <div class="card">
+        <h3>Makeup Studio</h3>
+        <p>Signature bridal makeup packages, party makeovers, and specialized styling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Details & Location -->
+  <section class="section" id="details" style="background:#f0f0f0;">
+    <h2>Visit Us</h2>
+    <div class="info-wrap">
+      <div class="info-box">
+        <h3>Salon Hours</h3>
+        <p><strong>Monday – Sunday:</strong></p>
+        <p>9:00 AM – 9:00 PM (Open 7 Days a Week)</p>
+      </div>
+
+      <div class="info-box" id="contact">
+        <h3>Address & Landmark</h3>
+        <p><strong>Glam Ave Professional Salon</strong></p>
+        <p>1st Floor, National Tower, Amar Bhavan Chowk Area,</p>
+        <p>Near Skylark Road / Tehsil Road,</p>
+        <p>Panipat – 132103, Haryana</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Glam Ave Professional Salon, Panipat. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
